@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+	int i;
+	int ar[]= {1,2,3};
+	for (i=0;i<4,i++)
+	{
+		printf("the elements are"ar[i]);
+	}
+	return 0;
+}
+
