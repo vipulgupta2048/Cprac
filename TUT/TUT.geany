@@ -1,0 +1,19 @@
+a+(b*c-(D/E^F)*G)*H
+
+input					stack 				 postfix (left to right)
+a												a
++							+					a
+(							+(					a
+b							+(					ab
+*							+(*					ab
+c							+(*					abc
+-							+(-					abc*
+(							+(-(				abc*
+D							+(-(				abc*D
+/							+(-(/				abc*D
+E							+(-(/				abc*DE
+^							+(-(/^				abc*DE
+F							+(-(/^				abc*DEF
+)							+(-					abc*DEF^/
+*							+*					abc*DEF^/G*-H*+
+
