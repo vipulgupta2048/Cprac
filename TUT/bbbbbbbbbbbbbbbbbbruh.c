@@ -35,7 +35,6 @@ int main()
 	printf("enter a number");
 	scanf("%d",&b);
 	
-		
 	int res = op(a,b);
 	printf("result is = %d",res);
 	

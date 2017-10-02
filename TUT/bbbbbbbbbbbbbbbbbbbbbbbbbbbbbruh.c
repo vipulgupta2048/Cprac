@@ -8,7 +8,7 @@ int main()
 	int ar3[2][3];
 	build (2,3,ar1);
 	build (2,3,ar2);
-	
+
 	int i,j;
 	printf("The sum of the 2 Arrays are :- \n ");
 	for (i=0;i<2;i++)
