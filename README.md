@@ -1,2 +1,2 @@
 # Cprac
-All my practice programs of C and C++ rolled into one.
+All my practice programs of C, C++ and python rolled into one.
