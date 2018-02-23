@@ -12,12 +12,14 @@ class prime{
             {System.out.println("NOT PRIME");}
         else{
             for(int i=2;i<=m;i++){
-                    if(x%i==0){
-                        System.out.println(x+" is not prime number");
-                        lag=1;
-                        break;
-                    }
+                if(x%i==0){
+                    System.out.println(x+" is not prime number");
+                    lag=1;
+                    break;
                 }
-        if(lag==0){System.out.println(x+" is prime number"); }}
+            }
+        if(lag==0){
+            System.out.println(x+" is prime number");
+        }}
     }
 }
