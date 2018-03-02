@@ -8,9 +8,9 @@ public class panlind{
             int x = pro.nextInt();
 
             while (x>0){
-                r = x%10;
-                sum = (sum *10) + r;
-                x = x/10;
+                    r = x%10;
+                    sum = (sum *10) + r;
+                    x = x/10;
                 }
 
             if (x==sum){System.out.println("Panlindrome");}
