@@ -8,7 +8,7 @@ public class SwingControlDemo {
    private JLabel statusLabel;
    private JPanel controlPanel;
 
-   public SwingControlDemo(){s
+   public SwingControlDemo(){
       prepareGUI();
    }
    public static void main(String[] args){
