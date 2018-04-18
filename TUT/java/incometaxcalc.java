@@ -88,6 +88,8 @@ public class incometaxcalc extends Applet
      setVisible(true);
     }
 
+
+
         String inctax(double s)
     {
        if (s>= 0 && s<100000)

@@ -31,6 +31,9 @@ public class loginwithswing {
         JButton loginButton = new JButton("login");
         loginButton.setBounds(10, 80, 80, 25);
         panel.add(loginButton);
+        JCheckBox check = new JCheckBox("Check");
+        check.setBounds(80, 100, 80, 25);
+        panel.add(check);
     }
 }
 
