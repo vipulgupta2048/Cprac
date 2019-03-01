@@ -26,13 +26,22 @@ def partition(alist,first,last):
             border += 1
             alist[i], alist[border] = alist[border], alist[i]
     alist[first], alist[border] = alist[border], alist[first]
-
+    print (alist)
     return (border)
 
 # ~ alist = [54,26,93,17,77,31,44,55,20]
-alist = [1,2,77,3,88,99,6,78,5,9,8,444,1,5,74,0,9]
+alist = [1,2,3,4,5,6,7]
 quickSort(alist)
 print(alist)
+print()
+alist = [5,6,7,1,2,3,4]
+quickSort(alist)
+print(alist)
+print()
+alist = [7,6,5,4,3,2,1]
+quickSort(alist)
+print(alist)
+
 
 # ~ Insertion sort only depends on the best pick of Pivot value that you are taking. For a better Pivot value, always take the median of the first, last and middle value something list this.
 
