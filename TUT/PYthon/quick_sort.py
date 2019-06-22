@@ -20,7 +20,8 @@ def partition(alist,first,last):
 
     pivotvalue, alist[first] = alist[first], pivotvalue
     border = first
-
+    print(border)
+    print(pivotvalue)
     for i in range(first, last+1):
         if alist[i] < pivotvalue:
             border += 1
@@ -30,20 +31,24 @@ def partition(alist,first,last):
     return (border)
 
 # ~ alist = [54,26,93,17,77,31,44,55,20]
-alist = [1,2,3,4,5,6,7]
-quickSort(alist)
-print(alist)
-print()
-alist = [5,6,7,1,2,3,4]
-quickSort(alist)
-print(alist)
-print()
-alist = [7,6,5,4,3,2,1]
+# ~ alist = [1,2,3,4,5,6,7]
+# ~ quickSort(alist)
+# ~ print(alist)
+# ~ print()
+# ~ alist = [5,6,7,1,2,3,4]
+# ~ quickSort(alist)
+# ~ print(alist)
+# ~ print()
+# ~ alist = [7,6,5,4,3,2,1]
+# ~ quickSort(alist)
+# ~ print(alist)
+
+alist = [65, 43, 54, 26, 38, 48, 50 ]
 quickSort(alist)
 print(alist)
 
 
-# ~ Insertion sort only depends on the best pick of Pivot value that you are taking. For a better Pivot value, always take the median of the first, last and middle value something list this.
+# ~ Insertion sort only depends on the best pick of Pivot value that you are taking. For a better Pivot value, always take the median of the first, last and middle value something like  this.
 
 # ~ def get_pivot(A, low, hi):
 	# ~ mid = (hi + low) // 2
