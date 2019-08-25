@@ -7,7 +7,7 @@ class ClassGrades:
     def from_csv(cls, grade_csv_str):
         grades = map(int, grade_csv_str.split(', '))
         cls.validate(grades)
-        return cls(grades)
+        print(cls(grades))
 
 
     @staticmethod
@@ -18,11 +18,11 @@ class ClassGrades:
 
 try:
     # Try out some valid grades
-    class_grades_valid = ClassGrades.from_csv('90, 80, 85, 94, 70')
-    print 'Got grades:', class_grades_valid.grades
+    print(ClassGrades.from_csv('90, 80, 85, 94, 70'))
+    # ~ print ('Got grades:{}'.format(class_grades_valid.grades))
 
     # Should fail with invalid grades
     class_grades_invalid = ClassGrades.from_csv('92, -15, 99, 101, 77, 65, 100')
-    print class_grades_invalid.grades
+    print (class_grades_invalid.grades)
 except:
-    print 'Invalid!'
+    print ('Invalid!')
