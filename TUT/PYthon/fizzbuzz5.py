@@ -2,9 +2,9 @@
 
 def voice(i):
     switcher = {
-        i % 15 : a.append("Fizzbuzz"),
-        i % 3 : a.append("Fizz"),
-        i % 5 : a.append("Buzz")
+        i % 15 == 0 : a.append("Fizzbuzz"),
+        i % 3 == 0 : a.append("Fizz"),
+        i % 5 == 0 : a.append("Buzz")
     }
     return switcher.get(i, a.append(i))
 
