@@ -10,13 +10,18 @@ class Pizza(object):
     def __repr__(self):
         return str(self.toppings)
 
+
 pizza = Pizza()
+
 
 @pizza
 def cheese():
-    return 'cheese'
+    return "cheese"
+
+
 @pizza
 def sauce():
-    return 'sauce'
+    return "sauce"
+
 
 print(pizza)

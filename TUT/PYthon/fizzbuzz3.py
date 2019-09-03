@@ -3,9 +3,16 @@
 # For Example: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, Fizz, 14, Fizz Buzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, Fizz, Fizz, Buzz, 26, Fizz, 28, 29, Fizz Buzz, Fizz, Fizz, Fizz, Fizz, Fizz, Fizz Buzz, Fizz, Fizz, Fizz, Fizz, Buzz, 41, Fizz, Fizz, 44, Fizz Buzz, …
 
 a = []
-x = {3:"Fizz", 35: "Fizzty-buzz", 53: "Buzzity-fizz", 52: "Buzzity-two", 99: "ninety-nine", 63: "sixty-fizz"}
+x = {
+    3: "Fizz",
+    35: "Fizzty-buzz",
+    53: "Buzzity-fizz",
+    52: "Buzzity-two",
+    99: "ninety-nine",
+    63: "sixty-fizz",
+}
 
-for i in range(0,101):
+for i in range(0, 101):
     y = str(i)
     if "3" in y:
         try:

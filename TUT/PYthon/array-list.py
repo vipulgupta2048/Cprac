@@ -1,11 +1,11 @@
 my_integers = [5, 7, 1, 3, 4]
-print(my_integers[0]) # 5
-print(my_integers[1]) # 7
-print(my_integers[4]) # 4
+print(my_integers[0])  # 5
+print(my_integers[1])  # 7
+print(my_integers[4])  # 4
 print("")
 
-relative =["boy", "foo", "sho", "loo", "goo"]
-print(relative[3]) #loo
+relative = ["boy", "foo", "sho", "loo", "goo"]
+print(relative[3])  # loo
 print("")
 
 foo = []

@@ -1,10 +1,12 @@
 class Bear(object):
     def sound(self):
-        print ("Groarrr")
+        print("Groarrr")
+
 
 class Dog(object):
     def sound(self):
-        print ("Woof woof!")
+        print("Woof woof!")
+
 
 def makeSound(animalType):
     animalType.sound()

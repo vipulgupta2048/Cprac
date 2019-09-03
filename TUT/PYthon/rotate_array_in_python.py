@@ -1,4 +1,3 @@
-
 def rotate(a):
     temp = []
     x = len(a)
@@ -7,4 +6,5 @@ def rotate(a):
         x = x - 1
     return temp
 
-rotate([1,3,4,52,141,153132,0])
+
+rotate([1, 3, 4, 52, 141, 153132, 0])
