@@ -26,7 +26,7 @@ done
 
 #Here star (*) takes everything that it is in the directory and loops over it.
 
-#for i in {0..10..2}
-#  do
-#       echo "Welcome $i times"
-#  done
+for i in {0..10..2}
+do
+    echo "Welcome $i times"
+done

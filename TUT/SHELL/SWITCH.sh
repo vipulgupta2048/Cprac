@@ -8,9 +8,7 @@ do
             howdy)          echo American;;
             gday)           echo Australian;;
             bonjour)        echo French;;
-            "Guten Tag"     echo German;;
-            *)              echo Unknown Language;; 
-    $f
-        ;;
-        easc
-        done<myfile
+            guten_tag)      echo German;;
+            *)              echo Unknown Language;;
+esac
+done

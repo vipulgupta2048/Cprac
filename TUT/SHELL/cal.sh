@@ -1,4 +1,22 @@
-# !/bin/bash
+#!/bin/sh
+
+# cale(){
+# n1=$1
+# op=$2
+# n2=$3
+# ans=0
+# if [ $# -eq 3 ]; then
+# ans=$(( $n1 $op $n2 ))
+# echo "$n1 $op $n2 = $ans"
+# return $ans
+# else
+# echo "Function cal requires atleast three args"
+# fi
+# return
+# }
+
+# cale
+
 
 # Take user Input
 echo "Enter Two numbers : "
@@ -16,7 +34,7 @@ read ch
 # Switch Case to perform
 # calulator operations
 case $ch in
-1)res=`echo "expr $a + $b "`
+1)res=`echo $a + $b | bc`
 ;;
 2)res=`echo $a - $b | bc`
 ;;
