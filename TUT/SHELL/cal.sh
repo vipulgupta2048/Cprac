@@ -34,7 +34,7 @@ read ch
 # Switch Case to perform
 # calulator operations
 case $ch in
-1)res=`echo $a + $b | bc`
+1)res=`echo $(($a + $b))`
 ;;
 2)res=`echo $a - $b | bc`
 ;;
