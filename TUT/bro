@@ -1,0 +1,24 @@
+total 88
+-rw-rw-r-- 1 vipulgupta2048 vipulgupta2048   0 Dec  2 05:40 =
+-rw-rw-r-- 1 vipulgupta2048 vipulgupta2048 190 Dec  2 06:58 bro
+-rwxrwxrwx 1 vipulgupta2048 vipulgupta2048 434 Dec  2 06:31 calc.sh
+-rwxrwxrwx 1 vipulgupta2048 vipulgupta2048 646 Dec  2 06:42 cal.sh
+-rwxrwxr-x 1 vipulgupta2048 vipulgupta2048 320 Nov 12  2018 CASE.sh
+-rwxrwxrwx 1 vipulgupta2048 vipulgupta2048 113 Dec  2 06:16 file.sh
+-rw-rw-r-- 1 vipulgupta2048 vipulgupta2048  85 Dec  1 23:17 find_command
+-rwxrwxr-x 1 vipulgupta2048 vipulgupta2048 568 Dec  2 06:03 FUNCTION.sh
+-rwxrwxr-x 1 vipulgupta2048 vipulgupta2048 355 Dec  2 05:22 IF.sh
+-rwxrwxrwx 1 vipulgupta2048 vipulgupta2048 258 Sep 23 17:00 l1.sh
+-rwxrwxr-x 1 vipulgupta2048 vipulgupta2048 463 Dec  2 05:44 LOOP.sh
+-rwxrwxrwx 1 vipulgupta2048 vipulgupta2048  62 Dec  2 07:24 odd.sh
+-rwxrwxrwx 1 vipulgupta2048 vipulgupta2048 437 Dec  2 06:40 palin.sh
+-rwxrwxrwx 1 vipulgupta2048 vipulgupta2048 128 Dec  2 05:41 postive.sh
+-rwxrwxrwx 1 vipulgupta2048 vipulgupta2048 422 Sep 10 01:10 practise.sh
+-rwxrwxrwx 1 vipulgupta2048 vipulgupta2048 127 Dec  2 06:20 reverse.sh
+-rwxrwxr-x 1 vipulgupta2048 vipulgupta2048 369 Dec  2 05:55 SWITCH.sh
+-rw-rw-r-- 1 vipulgupta2048 vipulgupta2048  86 Sep 23 16:46 t.error
+-rwxrwxr-x 1 vipulgupta2048 vipulgupta2048 850 Dec  2 05:35 TEST.sh
+-rwxrwxr-x 1 vipulgupta2048 vipulgupta2048 278 Dec  2 05:08 TUT.sh
+-rwxrwxr-x 1 vipulgupta2048 vipulgupta2048 275 Dec  2 05:09 VAR.sh
+-rw-rw-r-- 1 vipulgupta2048 vipulgupta2048 114 Nov 12  2018 VIPUL_FILE
+-rwxrwxr-x 1 vipulgupta2048 vipulgupta2048 401 Dec  2 05:52 WHILE.sh
