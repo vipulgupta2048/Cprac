@@ -2,7 +2,7 @@ def rotate(a):
     temp = []
     x = len(a)
     for i in range(len(a)):
-        temp[x]
+        temp[x] = i
         x = x - 1
     return temp
 
